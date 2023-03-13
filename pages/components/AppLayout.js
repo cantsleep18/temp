@@ -61,6 +61,20 @@ const HomeText = styled.div`
   line-height: 21px;
   color: #000000;
   margin-right: 50px;
+
+  display: inline-block;
+  text-transform: uppercase;
+
+  &::after {
+    display: block;
+    content: "";
+    border-bottom: solid 2px #000000;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+  }
 `;
 
 const ContactText = styled(HomeText)`
@@ -102,7 +116,7 @@ const AppLayout = ({ children }) => {
                   href="/"
                   style={{
                     textDecoration: "none",
-                    color: "#000000",
+                    color: "#000000git",
                   }}
                 >
                   Home
