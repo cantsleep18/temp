@@ -57,7 +57,7 @@ const HomeText = styled.div`
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 21px;
   color: #000000;
   margin-right: 50px;
