@@ -17,7 +17,7 @@ const TitleWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   /* padding-bottom: 123px; */
-  padding-bottom: 246px;
+  padding-bottom: 200px;
   background-image: url("/images/logoBackground.svg");
   background-size: cover;
   background-position: right;
@@ -31,7 +31,7 @@ const TopText = styled.div`
   text-align: center;
   color: #15317f;
 
-  margin-top: 208px;
+  margin-top: 200px;
 `;
 const LogoWrapper = styled.div`
   margin-top: 50px;
