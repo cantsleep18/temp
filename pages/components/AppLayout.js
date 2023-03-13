@@ -59,7 +59,7 @@ const HomeText = styled.div`
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #184eae;
+  color: #000000;
   margin-right: 50px;
 `;
 
@@ -102,7 +102,7 @@ const AppLayout = ({ children }) => {
                   href="/"
                   style={{
                     textDecoration: "none",
-                    color: "#184eae",
+                    color: "#000000",
                   }}
                 >
                   Home
@@ -112,7 +112,7 @@ const AppLayout = ({ children }) => {
                 href="/contact"
                 style={{
                   textDecoration: "none",
-                  color: "#184eae",
+                  color: "#000000",
                 }}
               >
                 <ContactText>Contact</ContactText>
@@ -130,7 +130,7 @@ const AppLayout = ({ children }) => {
                   href="/"
                   style={{
                     textDecoration: "none",
-                    color: "#184eae",
+                    color: "#000000",
                   }}
                 >
                   Home
@@ -140,7 +140,7 @@ const AppLayout = ({ children }) => {
                 href="/contact"
                 style={{
                   textDecoration: "none",
-                  color: "#184eae",
+                  color: "#000000",
                 }}
               >
                 <ContactText>Contact</ContactText>
