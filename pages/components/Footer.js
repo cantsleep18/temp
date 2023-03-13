@@ -17,7 +17,7 @@ const TextWrapper = styled.div`
 `;
 
 const FooterText = styled.div`
-  font-family: "S-Core Dream";
+  font-family: "Score";
   font-style: normal;
   font-weight: 200;
   font-size: 14px;

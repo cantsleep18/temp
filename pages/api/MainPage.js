@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 
 const MainWrapper = styled.div`
   /* width: 1200px; */
-  height: 877px;
   display: flex;
   flex-direction: column;
 `;
@@ -17,13 +16,14 @@ const TitleWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 123px;
+  /* padding-bottom: 123px; */
+  padding-bottom: 246px;
   background-image: url("/images/logoBackground.svg");
   background-size: cover;
   background-position: right;
 `;
 const TopText = styled.div`
-  font-family: "Serif12 Beta";
+  font-family: "Serif";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -31,13 +31,13 @@ const TopText = styled.div`
   text-align: center;
   color: #15317f;
 
-  margin-top: 104px;
+  margin-top: 208px;
 `;
 const LogoWrapper = styled.div`
-  margin-top: 44px;
+  margin-top: 60px;
 `;
 const BottomText = styled.div`
-  font-family: "Serif12 Beta";
+  font-family: "Serif";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

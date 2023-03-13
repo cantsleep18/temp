@@ -68,7 +68,7 @@ const HomeText = styled.div`
   &::after {
     display: block;
     content: "";
-    border-bottom: solid 2px #000000;
+    border-bottom: solid 2px #15317f;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
   }
@@ -116,7 +116,7 @@ const AppLayout = ({ children }) => {
                   href="/"
                   style={{
                     textDecoration: "none",
-                    color: "#000000git",
+                    color: "#000000",
                   }}
                 >
                   Home
