@@ -34,7 +34,7 @@ const TopText = styled.div`
   margin-top: 208px;
 `;
 const LogoWrapper = styled.div`
-  margin-top: 60px;
+  margin-top: 50px;
 `;
 const BottomText = styled.div`
   font-family: "Serif";
